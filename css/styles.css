@@ -362,7 +362,7 @@ img {
   display: flexbox;
   width: 1440px;
   height: 312px;
-  padding-top: 100px;
+  padding: 100px;
 }
 
 .footer-content {
