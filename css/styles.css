@@ -206,6 +206,8 @@ footer {
   justify-content: space-between;
 }
 
+
+
 .logo {
   align-items: center;
   text-decoration: none;
@@ -358,10 +360,9 @@ img {
 
 .footer .container {
   display: flexbox;
-  width: 100%;
+  width: 1440px;
   height: 312px;
   padding-top: 100px;
-  margin-left: 156px;
 }
 
 .footer-content {
