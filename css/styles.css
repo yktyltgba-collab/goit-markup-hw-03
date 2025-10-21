@@ -253,7 +253,7 @@ footer {
 
 
 .services .container {
-  display: flexbox;
+  display: flex;
   width: 1128px;
   height: 104px;
   justify-content: space-between;
@@ -359,10 +359,10 @@ img {
 }
 
 .footer .container {
-  display: flexbox;
+  display: flex;
   width: 1440px;
   height: 312px;
-  padding: 100px;
+  padding: 100px 156px;
 }
 
 .footer-content {
