@@ -200,36 +200,28 @@ footer {
   padding: 24px 0;
   background-color: #ffffff;
   list-style-type: none;
-  display: flex;
   width: 100%;
-  align-items: center;
-  justify-content: space-between;
+  border: #e7e9fc 1px solid;
 }
 
-
-
-.logo {
-  align-items: center;
-  text-decoration: none;
-}
-
-.container .nav-list {
-  display: inline-flex;
-  margin-left: 190px;
-}
-
-.nav-list .link {
-  margin-right: 34px;
+.nav-list {
+  display: flex;
+  gap: 40px;
 }
 
 .contacts {
-  display: inline-flex;
-  margin-left: auto;
+  display: flex;
+  gap: 40px;
 }
 
-.contacts .link {
-  margin-right: 32px;
+.header-content {
+  display: flex;
+  width: 1440px;
+  justify-content: space-between;
+  align-items: center;
 }
+
+
 
 .title .container {
   display: block;
@@ -251,19 +243,19 @@ footer {
   text-align: center;
 }
 
-
 .services .container {
-  display: flex;
   width: 100%;
-  height: 104px;
-  justify-content: center;
   align-items: center;
+  justify-content: center;
 }
 
 .services-list {
   display: flex;
   width: 1128px;
-  justify-content: space-between;
+  height: 104px;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 24px;
 }
 
 .features1,
@@ -272,12 +264,18 @@ footer {
 .features4 {
   display: inline-block;
   width: 264px;
+  height: 104px;
   text-align: left;
   gap: 8px;
 }
 
+.services-content {
+  display: block;
+  text-align: left;
+}
+
 .properties {
-  text-align: center;
+  display: block;
 }
 
 .team .container {
@@ -360,7 +358,6 @@ img {
 .footer .container {
   display: flex;
   width: 1440px;
-  height: 312px;
   padding: 100px 156px;
 }
 
